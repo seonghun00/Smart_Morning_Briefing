@@ -20,12 +20,31 @@
 
 ---
 
-## 🚀 Key Features (주요 기능)
+## 🔄 Workflow (시스템 흐름도)
 
-* **Real-time Data Fetching**: Investing.com RSS 피드로부터 최신 주요 뉴스 헤드라인 3건을 실시간으로 수집합니다.
-* **Market Indicator Tracking**: `GOOGLEFINANCE` 함수를 이용해 나스닥(NASDAQ) 및 코스피(KOSPI) 지수의 변동폭을 자동으로 계산합니다.
-* **Voice-Optimized TTS Formatting**: 구글 어시스턴트의 음성 합성(TTS)이 자연스럽도록 소수점을 반올림하고 한국어 조사(은/는)를 문맥에 맞게 교정합니다.
-* **Daily Automation Pipeline**: 시간 기반 트리거를 통해 매일 새벽 자동으로 데이터를 갱신하고 구글 캘린더에 동기화합니다.
+```mermaid
+graph TD
+    A[Daily Trigger<br/>매일 새벽 자동 실행] --> B{Data Fetching}
+    B --> C[Investing.com<br/>News RSS]
+    B --> D[Google Finance<br/>Market Data]
+    
+    C --> E[Data Processing]
+    D --> E
+    
+    E --> F[Text Optimization<br/>TTS 음성 최적화 가공]
+    F --> G[Google Spreadsheet<br/>기록 및 수식 계산]
+    G --> H[Google Calendar<br/>All-day Event 등록]
+    
+    H --> I((Morning Routine<br/>알람 해제 시 루틴 실행))
+    I --> J[Google Nest Mini<br/>음성 브리핑 출력]
+```
+<br>
+
+### 💡 흐름도 설명
+* **Trigger**: 설정된 시간에 따라 `Google Apps Script`가 자동으로 활성화됩니다.
+* **Data Ingestion**: 뉴스 RSS 피드와 시장 지표를 동시에 수집합니다.
+* **Processing**: 수집된 데이터를 구글 어시스턴트가 읽기 편한 문장 구조로 재구성합니다.
+* **Output**: 최종 가공된 텍스트를 구글 캘린더의 **All-day Event**로 박아넣어 음성 출력을 준비합니다.
 
 ---
 
