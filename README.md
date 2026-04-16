@@ -53,6 +53,17 @@ graph LR
 
 ---
 
+## 🖥️ Execution Result (시트 실행 화면)
+
+<img width="837" height="301" alt="image" src="https://github.com/user-attachments/assets/9769ae23-4860-4864-b852-967114ff4659" />
+
+### 🔍 주요 셀 상세 설명
+* **A1** : 스크립트 실행 날짜 (`yyyy-MM-dd`)
+* **B1 ~ B3** : 실시간으로 수집된 주요 뉴스 헤드라인 3건
+* **B4 ** : 주요시장 (나스닥, 코스피) 지수 알림 문장
+
+---
+
 ## 💻 Configuration (환경 설정)
 
 사용자는 `Code.gs` 상단의 `CONFIG` 객체만 수정하여 시스템을 커스터마이징할 수 있습니다.
@@ -68,5 +79,7 @@ const CONFIG = {
   CALENDAR_ID: null // 특정 캘린더 ID를 넣거나, 기본 캘린더 사용 시 null 유지
 };
 ```
+
 ---
+
 © 2026 Seong-hun Bae.
