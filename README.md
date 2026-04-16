@@ -55,18 +55,25 @@ graph LR
 
 ## 🖥️ Execution Result (시트 실행 결과)
 
-<img width="100%" alt="시트 실행 결과" height="682" alt="image" src="https://github.com/user-attachments/assets/9769ae23-4860-4864-b852-967114ff4659" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9769ae23-4860-4864-b852-967114ff4659" width="100%" alt="시트 실행 결과">
+  <br>
+  <em>스크립트 실행 후 데이터가 자동으로 기록된 스프레드시트 화면</em>
+</p>
 
-
-### 🔍 주요 셀 상세 설명
-* **A1** : 스크립트 실행 날짜 (`yyyy-MM-dd`)
-* **B1 ~ B3** : 실시간으로 수집된 주요 뉴스 헤드라인 3건
-* **B4 ** : 주요시장 (나스닥, 코스피) 지수 알림 문장
+| 셀 위치 | 주요 내용 | 상세 설명 |
+| :--- | :--- | :--- |
+| **A1** | **Execution Date** | 스크립트가 실행된 날짜가 자동으로 기록됩니다. |
+| **B1 - B3** | **Daily News** | 인베스팅닷컴 RSS에서 수집된 실시간 주요 뉴스 헤드라인 3건입니다. |
+| **B4** | **Market Briefing** | **나스닥/코스피 변동률(%)**을 계산하여 구글 네스트 낭독용 문장으로 완성됩니다. |
 
 <br>
 
-<img width="100%" alt="구글 캘린더 일정 연동 결과" height="682" alt="image" src="https://github.com/user-attachments/assets/24518300-9df9-4dc8-8d2c-566737dbe401" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/24518300-9df9-4dc8-8d2c-566737dbe401" width="100%" alt="구글 캘린더 일정 연동 결과">
+  <br>
+  <em>구글 캘린더에 '종일 일정'으로 등록된 최종 브리핑 본문 화면</em>
+</p>
 
 ---
 
