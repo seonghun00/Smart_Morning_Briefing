@@ -53,14 +53,20 @@ graph LR
 
 ---
 
-## 🖥️ Execution Result (시트 실행 화면)
+## 🖥️ Execution Result (시트 실행 결과)
 
-<img width="837" height="301" alt="image" src="https://github.com/user-attachments/assets/9769ae23-4860-4864-b852-967114ff4659" />
+<img width="100%" alt="시트 실행 결과" height="682" alt="image" src="https://github.com/user-attachments/assets/9769ae23-4860-4864-b852-967114ff4659" />
+
 
 ### 🔍 주요 셀 상세 설명
 * **A1** : 스크립트 실행 날짜 (`yyyy-MM-dd`)
 * **B1 ~ B3** : 실시간으로 수집된 주요 뉴스 헤드라인 3건
 * **B4 ** : 주요시장 (나스닥, 코스피) 지수 알림 문장
+
+<br>
+
+<img width="100%" alt="구글 캘린더 일정 연동 결과" height="682" alt="image" src="https://github.com/user-attachments/assets/24518300-9df9-4dc8-8d2c-566737dbe401" />
+
 
 ---
 
