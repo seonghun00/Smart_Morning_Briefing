@@ -1,4 +1,8 @@
-- # 🤖 Smart Morning Briefing Bot
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=80&section=header" width="100%" />
+</p>
+
+# 🤖 Smart Morning Briefing Bot
 > **Google Nest Mini 연동 아침 경제 뉴스 및 시장 지표 브리핑 자동화 시스템**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -39,3 +43,6 @@ const CONFIG = {
   TIME_ZONE: "GMT+9",
   CALENDAR_ID: null // 특정 캘린더 ID를 넣거나, 기본 캘린더 사용 시 null 유지
 };
+```
+---
+© 2026 Seong-hun Bae.
