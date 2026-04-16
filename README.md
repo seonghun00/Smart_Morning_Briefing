@@ -23,28 +23,31 @@
 ## 🔄 Workflow (시스템 흐름도)
 
 ```mermaid
-graph TD
-    A[Daily Trigger<br/>매일 새벽 자동 실행] --> B{Data Fetching}
-    B --> C[Investing.com<br/>News RSS]
-    B --> D[Google Finance<br/>Market Data]
-    
-    C --> E[Data Processing]
+graph LR
+    subgraph "Data Sources"
+        A[News RSS]
+        B[Finance Data]
+    end
+
+    subgraph "Processing (GAS)"
+        C{Automation Bot}
+    end
+
+    subgraph "User Interface"
+        D[Google Calendar]
+        E[Google Nest Mini]
+    end
+
+    A & B --> C
+    C --> D
     D --> E
-    
-    E --> F[Text Optimization<br/>TTS 음성 최적화 가공]
-    F --> G[Google Spreadsheet<br/>기록 및 수식 계산]
-    G --> H[Google Calendar<br/>All-day Event 등록]
-    
-    H --> I((Morning Routine<br/>알람 해제 시 루틴 실행))
-    I --> J[Google Nest Mini<br/>음성 브리핑 출력]
 ```
 <br>
 
 ### 💡 흐름도 설명
-* **Trigger**: 설정된 시간에 따라 `Google Apps Script`가 자동으로 활성화됩니다.
-* **Data Ingestion**: 뉴스 RSS 피드와 시장 지표를 동시에 수집합니다.
-* **Processing**: 수집된 데이터를 구글 어시스턴트가 읽기 편한 문장 구조로 재구성합니다.
-* **Output**: 최종 가공된 텍스트를 구글 캘린더의 **All-day Event**로 박아넣어 음성 출력을 준비합니다.
+* **Input**: 실시간 뉴스 및 지표 수집
+* **Process**: Google Apps Script를 통한 문장 최적화 및 자동화
+* **Output**: 구글 캘린더 동기화 및 네스트 미니 음성 출력
 
 ---
 
