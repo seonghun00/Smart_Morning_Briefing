@@ -68,6 +68,16 @@ This project automates personalized briefings via Google Nest Mini using Google 
 3. **Configuration**: Enter your `SHEET_ID` in the `CONFIG` object within the script.
 4. **Trigger Setting**: Set up a time-driven trigger to run the function every morning.
 
+```javascript
+/**
+ * Line 12: User Google Sheet ID
+ */
+...
+const CONFIG = {
+  SHEET_ID: "Put in your Google Sheet ID here",                 // Google Sheet url (~spreadsheets/d/(** Here is the Google Sheet ID **)/edit?~)
+  RSS_URL: 'https://kr.investing.com/rss/news_285.rss',      // 투자 뉴스 RSS 주소
+...
+
 ---
 
 © 2026 Seong-hun Bae.
