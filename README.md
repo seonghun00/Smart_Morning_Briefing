@@ -74,8 +74,8 @@ This project automates personalized briefings via Google Nest Mini using Google 
  */
 ...
 const CONFIG = {
-  SHEET_ID: "Put in your Google Sheet ID here",             // Google Sheet url (~spreadsheets/d/(** Here is the Google Sheet ID **)/edit?~)
-  RSS_URL: 'https://kr.investing.com/rss/news_285.rss',     // 투자 뉴스 RSS 주소
+  SHEET_ID: "Paste your Google Sheet ID here",     // Google Sheet url (~spreadsheets/d/(** This is the Google Sheet ID **)/edit?~)
+  RSS_URL: 'https://kr.investing.com/rss/news_285.rss',   // Investing.com RSS address
 ...
 
 ---
