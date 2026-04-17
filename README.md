@@ -48,6 +48,12 @@ This project automates personalized briefings via Google Nest Mini using Google 
   <sub><em>▲ Automatically recorded market data and news headlines in Google Sheets</em></sub>
 </p>
 
+<p align="center">
+  <img src="./images/googlecalendar_result.PNG" width="100%" alt="Google Calendar Integration Result">
+  <br>
+  <sub><em>▲ Final briefing body registered as an 'All-day event' in Google Calendar</em></sub>
+</p>
+
 ---
 
 ## 🚀 Getting Started
