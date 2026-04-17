@@ -22,7 +22,7 @@ Google Apps Script(GAS)를 활용하여 매일 아침 구글 네스트 미니를
 
 ## 🔄 Workflow (시스템 흐름도)
 
-![Morning Routine Flow](https://mermaid.ink/img/pako:eNptkU1OwzAQhK8yurSVEAgJidpVCBAn4ALuYmO7iY39Y_uHUKHeHSe0pXSTpZlvPr95Y69YGiVwInon_KInL4VBy9YpL1RnbY_W98Y3KmsXvA8WNoM_UeI0L1Tf-F5X97P_pG-61e389_Y5qTf-S9_1_D_7Vv2y_7Hva7vR99q98_93P-uf99-0e-O-67vO7mXv-9at7fG97-1G9vB_P_jZ_r7_Y3e_n-36f_4D3M2P9w)
+![Morning Routine Flow](./images/workflow.png)
 
 ### 💡 흐름도 설명
 * **Input** : 실시간 뉴스 및 지표 수집
