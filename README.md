@@ -22,30 +22,11 @@ Google Apps Script(GAS)를 활용하여 매일 아침 구글 네스트 미니를
 
 ## 🔄 Workflow (시스템 흐름도)
 
-<!-- <p align="center">
+<p align="center">
  <img src="./images/workflow.PNG" width="100%" alt="시트 실행 결과">
   <br>
   <em>전체적인 시스템 흐름도</em>
-</p> -->
-
-```mermaid
-graph LR
-    subgraph "Input"
-        A[📰 News RSS]
-        B[📈 Finance Data]
-    end
-
-    subgraph "Processing"
-        C{🤖 Automation Bot}
-    end
-
-    subgraph "Output"
-        D[📅 Google Calendar]
-        E[🔊 Google Nest]
-    end
-
-    A & B --> C --> D --> E
-```
+</p>
 
 ### 💡 흐름도 설명
 * **Input** : 실시간 뉴스 및 지표 수집
