@@ -48,6 +48,12 @@ This project automates personalized briefings via Google Nest Mini using Google 
   <sub><em>▲ Automatically recorded market data and news headlines in Google Sheets</em></sub>
 </p>
 
+| Cell | Key Content | Description |
+| :--- | :--- | :--- |
+| **A1** | **Execution Date** | The date the script was executed is automatically recorded. |
+| **B1 - B3** | **Daily News** | Three real-time major news headlines collected from Investing.com RSS. |
+| **B4** | **Market Briefing** | Calculates **NASDAQ/KOSPI fluctuation rates (%)** and completes the briefing sentences for Google Nest reading. |
+
 <p align="center">
   <img src="./images/googlecalendar_result.PNG" width="100%" alt="Google Calendar Integration Result">
   <br>
