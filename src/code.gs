@@ -17,7 +17,7 @@ const CONFIG = {
 };
 
 /**
- * 성훈님의 스마트 아침 브리핑 시스템 (TTS 최적화 최종본)
+ * 스마트 아침 브리핑 시스템 (TTS 최적화 최종본)
  */
 function morningRoutineFinal() {
   const ss = SpreadsheetApp.openById(CONFIG.SHEET_ID);
